@@ -1,3 +1,6 @@
+#Hellooooo my partner 
+
+
 Library <- function(Packages) {
   InstallAndLoad <- function(Package) {
     if (!Package %in% installed.packages()[, 1]) {install.packages(Package, repos="https://cran.rstudio.com/")}
